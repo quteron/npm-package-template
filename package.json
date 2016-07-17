@@ -1,0 +1,34 @@
+{
+  "name": "npm-package-template",
+  "version": "0.1.0",
+  "description": "Template to create a cusom npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quteron/npm-package-template.git"
+  },
+  "keywords": [
+    "handlebars",
+    "handlebars helpers"
+  ],
+  "author": "Quteron <quteron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quteron/npm-package-template/issues"
+  },
+  "homepage": "https://github.com/quteron/npm-package-template#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.11",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
